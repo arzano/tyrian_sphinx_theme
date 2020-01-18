@@ -17,6 +17,12 @@ setup(
     author_email="max@magorsch.de",
     url="https://github.com/mmagorsc/tyrian_sphinx_theme",
     packages=["tyrian_sphinx_theme"],
+    package_data={'tyrian_sphinx_theme': [
+        'theme.conf',
+        '*.html',
+        'static/*.css',
+        'static/*.css_t'
+    ]},
     include_package_data=True,
     entry_points={"sphinx.html_themes": ["tyrian_sphinx_theme = tyrian_sphinx_theme"]},
     classifiers=[
