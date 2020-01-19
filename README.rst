@@ -1,2 +1,0 @@
-Tyrian Sphinx Theme
-===================
