@@ -12,7 +12,7 @@ setup(
     name="tyrian-sphinx-theme",
     version=version,
     description="A Tyrian based Sphinx theme for Gentoo",
-    long_description=open('README.rst', encoding='utf-8').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     author="Max Magorsch",
     author_email="max@magorsch.de",
     url="https://github.com/mmagorsc/tyrian_sphinx_theme",
