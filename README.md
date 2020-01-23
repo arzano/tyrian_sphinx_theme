@@ -10,6 +10,8 @@ A Sphinx theme based on Tyrian (the new unified gentoo.org theme).
     - [navigationlinks_top](#navigationlinks_top)
     - [navigationlinks_bottom](#navigationlinks_bottom)
     - [navigationlinks_navbar](#navigationlinks_navbar)
+    - [license](#license)
+    - [license_link](#license_link)
 - [Contributors](#contributors)
 
 ## Installation
@@ -55,6 +57,16 @@ $ sphinx-build -b singlehtml ...
 - short: display the links using "<< >>"
 - long:  display the links using "<< chapter-heading chapter-heading >>"
 - none *(default)*: don't display the navigation links in the navbar at all
+
+### license
+
+- the license that will be display in the footer
+- CC-BY-SA-4.0 *(default)*
+
+### license_link
+
+- the link to the license that will be used when clicking on the license in the footer
+- https://creativecommons.org/licenses/by-sa/4.0/ *(default)*
 
 ## Contributors
 * [Max Magorsch](mailto:max@magorsch.de)
