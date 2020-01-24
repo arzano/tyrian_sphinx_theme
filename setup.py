@@ -14,6 +14,7 @@ setup(
     license = "BSD-2-Clause",
     description="A Tyrian based Sphinx theme for Gentoo",
     long_description=open('README.md', encoding='utf-8').read(),
+    long_description_content_type='text/markdown',
     author="Max Magorsch",
     author_email="max@magorsch.de",
     url="https://github.com/mmagorsc/tyrian_sphinx_theme",
