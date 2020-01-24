@@ -15,9 +15,9 @@ A Sphinx theme based on Tyrian (the new unified gentoo.org theme).
 - [Contributors](#contributors)
 
 ## Installation
-You can install the theme using 
+You can use pip to install the theme: 
 ``` shell
-$ pip install git+https://github.com/mmagorsc/tyrian_sphinx_theme/#egg=tyrian_sphinx_theme
+$ pip install tyrian-sphinx-theme
 ```
 
 ## Configuration
