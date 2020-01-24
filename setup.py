@@ -11,6 +11,7 @@ version = _locals["__version__"]
 setup(
     name="tyrian-sphinx-theme",
     version=version,
+    license = "BSD-2-Clause",
     description="A Tyrian based Sphinx theme for Gentoo",
     long_description=open('README.md', encoding='utf-8').read(),
     author="Max Magorsch",
@@ -29,6 +30,7 @@ setup(
         "Framework :: Sphinx",
         "Framework :: Sphinx :: Theme",
         "Operating System :: OS Independent",
+        "License :: OSI Approved :: BSD License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.6",
