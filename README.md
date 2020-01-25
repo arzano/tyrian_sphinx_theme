@@ -1,8 +1,17 @@
-# Tyrian Sphinx Theme
+<p align="center"><img width=17.5% src="https://raw.githubusercontent.com/mmagorsc/tyrian_sphinx_theme/master/docs/tyrian_sphinx_theme_raw.png"></p>
+<p align="center"><img width=60% src="https://raw.githubusercontent.com/mmagorsc/tyrian_sphinx_theme/master/docs/tyrian_sphinx_theme_label.png"></p>
 
-A Sphinx theme based on Tyrian (the new unified gentoo.org theme). 
+<p align="center">
+<a href="https://www.python.org/" ><img src="https://img.shields.io/badge/python-2.6%2B-blue.svg"></a>
+<a> <img src="https://github.com/mmagorsc/tyrian_sphinx_theme/workflows/Upload%20Python%20Package/badge.svg"></a>
+<a href="https://pypi.org/project/tyrian-sphinx-theme/"><img src="https://badge.fury.io/py/tyrian-sphinx-theme.svg" alt="PyPI version" height="18"></a>
+<a href="#contributing"> <img src="https://img.shields.io/badge/contributions-welcome-orange.svg"></a>
+<a href="https://opensource.org/licenses/BSD-2-Clause"><img src="https://img.shields.io/badge/license-BSD-blue.svg"></a>
+</p>
 
+## Table Of Contents 
 
+- [Basic Overview](#basic-overview)
 - [Installation](#installation)
 - [Configuration](#configuration)
     - [builders](#builders)
@@ -13,6 +22,13 @@ A Sphinx theme based on Tyrian (the new unified gentoo.org theme).
     - [license](#license)
     - [license_link](#license_link)
 - [Contributors](#contributors)
+- [Contributing](#contributing)
+
+## Basic Overview
+
+A Sphinx theme based on Tyrian (the new unified gentoo.org theme). 
+
+[![Screenshoot](https://raw.githubusercontent.com/mmagorsc/taskmonad/master/docs/screenshot.png)](https://projects.gentoo.org/qa/policy-guide/)
 
 ## Installation
 You can use pip to install the theme: 
@@ -70,3 +86,7 @@ $ sphinx-build -b singlehtml ...
 
 ## Contributors
 * [Max Magorsch](mailto:max@magorsch.de)
+
+## Contributing
+
+Contributions are welcome. You have an idea, suggestion for improvement or have found a bug? Just create an issue or send a pull request.
