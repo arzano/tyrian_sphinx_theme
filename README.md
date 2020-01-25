@@ -28,7 +28,7 @@
 
 A Sphinx theme based on Tyrian (the new unified gentoo.org theme). 
 
-[![Screenshoot](https://raw.githubusercontent.com/mmagorsc/taskmonad/master/docs/screenshot.png)](https://projects.gentoo.org/qa/policy-guide/)
+[![Screenshot](https://raw.githubusercontent.com/mmagorsc/tyrian_sphinx_theme/master/docs/screenshot.png)](https://projects.gentoo.org/qa/policy-guide/)
 
 ## Installation
 You can use pip to install the theme: 
