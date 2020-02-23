@@ -168,7 +168,6 @@
 
 
 {%- block header %}
-{{ test_var }}
     <header>
         <div class="site-title">
             <div class="container">
@@ -239,12 +238,21 @@
                                     {%- endif %}
                                     <a href="search.html">Search</a></li>
 
-                                {%- if pagename == "genindex" %}
-                                <li class="active">
-                                    {%- else %}
-                                <li>
-                                {%- endif %}
-                                <a href="genindex.html">Index</a></li>
+
+                                {% for rellink in rellinks %}
+
+                                    {%- if 'index' in rellink[0].lower() or 'index' in rellink[1].lower() or 'index' in rellink[3].lower()  %}
+
+                                        {%- if pagename == rellink[0] %}<li class="active">{%- else %}<li>{%- endif %}
+
+                                        <a href="{{ rellink[0] }}.html">{{ rellink[1] }}</a>
+
+                                        </li>
+
+                                    {%- endif %}
+
+                                {% endfor %}
+
                             {%- endif %}
 
                             {% if theme_navigationlinks_navbar != "none" %}
