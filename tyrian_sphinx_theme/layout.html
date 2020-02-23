@@ -168,6 +168,7 @@
 
 
 {%- block header %}
+{{ test_var }}
     <header>
         <div class="site-title">
             <div class="container">
@@ -197,7 +198,7 @@
                     </div>
                     <div class="logo">
                         <a href="index.html" title="Back to the homepage" class="site-logo"></a>
-                        <span class="site-label">{{ docstitle|replace("Gentoo","")|replace("documentation","") }}</span>
+                        <span class="site-label">{{ shorttitle|replace("Gentoo","")|replace("documentation","") }}</span>
                     </div>
                 </div>
             </div>
